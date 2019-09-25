@@ -1,14 +1,22 @@
 # Change Log
 
+## [1.3.4](https://github.com/hellslicer/rocker/tree/1.3.4)
+
+[Full Changelog](https://github.com/grammarly/rocker/compare/1.3.3...1.3.4)
+
+**Fixed bugs:**
+
+- Fix build args on multi-stage builds.
+- Add missing build args on `EnvReplaceCommand`.
+
 ## [1.3.1](https://github.com/grammarly/rocker/tree/1.3.1)
 
-[Full Changelog](https://github.com/grammarly/rocker/compare/1.2.0...1.3.0)
+[Full Changelog](https://github.com/grammarly/rocker/compare/1.3.0...1.3.1)
 
 **Merged pull requests:**
 
 - Fix some typos in the README.md [\#133] (https://github.com/grammarly/rocker/pull/133) ([amoghe](https://github.com/amoghe))
 - Golang version to 1.8.3 [\#177] (https://github.com/grammarly/rocker/pull/177) ([hcoa](https://github.com/hcoa))
-
 
 ## [1.3.0](https://github.com/grammarly/rocker/tree/1.3.0)
 
