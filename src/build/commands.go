@@ -274,6 +274,7 @@ func (c *CommandCleanup) Execute(b *Build) (State, error) {
 
 	// Keep some stuff between froms
 	s.ExportsID = dirtyState.ExportsID
+	s.NoCache.BuildArgs = dirtyState.NoCache.BuildArgs
 
 	// For final cleanup we want to keep imageID
 	if c.final {
